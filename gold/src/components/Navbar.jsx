@@ -45,7 +45,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       {open && (
         <div className="absolute top-full left-0 right-0 bg-white border-t border-gray-100 shadow-md px-6 py-5 flex flex-col gap-4 md:hidden">
-          {["Home", "About Us", "Services", "Projects", "Blog"].map((l) => (
+          {["Home", "About Us", "Services", "Projects"].map((l) => (
             <a key={l} href="#" className="text-sm text-gray-600 hover:text-yellow-700">{l}</a>
           ))}
           <button className="mt-2 px-5 py-2 rounded-full border border-gray-900 text-sm font-medium w-fit">Contact Us</button>

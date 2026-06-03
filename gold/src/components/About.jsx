@@ -22,20 +22,21 @@ export default function About() {
             clients' expectations and secure generational wealth.
           </p>
 
-          <div className="flex items-center gap-8 mt-8">
-            <button className="inline-flex items-center gap-2 bg-yellow-700 hover:bg-yellow-800 text-white text-sm font-semibold px-5 py-3 rounded transition-colors">
-              Get a Quote <ArrowUpRight size={15} />
-            </button>
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full border border-slate-400 flex items-center justify-center text-slate-500">
-                <Phone size={15} />
-              </div>
-              <div>
-                <p className="text-xs text-slate-400 uppercase tracking-wide font-medium">Call support centre</p>
-                <p className="text-base font-bold text-slate-900">+8 624 713 7241</p>
-              </div>
-            </div>
-          </div>
+          <div className="flex flex-row items-center gap-6 mt-8">
+  <button className="inline-flex items-center gap-2 bg-yellow-700 hover:bg-yellow-800 text-white text-sm font-semibold px-5 py-3 rounded transition-colors whitespace-nowrap">
+    Get a Quote <ArrowUpRight size={15} />
+  </button>
+
+  <div className="flex items-center gap-3">
+    <div className="w-9 h-9 rounded-full border border-slate-400 flex items-center justify-center text-slate-500 shrink-0">
+      <Phone size={15} />
+    </div>
+    <div className="mr-5">
+      <p className="text-xs text-slate-400 uppercase tracking-wide font-medium whitespace-nowrap">Call support centre</p>
+      <p className="text-base font-bold mr-7 text-slate-900 whitespace-nowrap">+17474006208</p>
+    </div>
+  </div>
+</div>
         </div>
 
         {/* Right — image */}
