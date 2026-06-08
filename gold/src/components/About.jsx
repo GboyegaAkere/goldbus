@@ -2,7 +2,7 @@ import { ArrowUpRight, Phone } from "lucide-react";
 
 export default function About() {
   return (
-    <section className="bg-slate-200 px-10 py-14 rounded-2xl">
+    <section className="bg-white px-6 py-14">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
         {/* Left */}
