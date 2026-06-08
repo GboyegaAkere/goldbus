@@ -32,8 +32,8 @@ export default function About() {
       <Phone size={15} />
     </div>
     <div className="mr-5">
-      <p className="text-xs text-slate-400 uppercase tracking-wide font-medium whitespace-nowrap">Call support centre</p>
-      <p className="text-base font-bold mr-7 text-slate-900 whitespace-nowrap">+17474006208</p>
+      <p className="text-xs text-slate-400 uppercase tracking-wide font-medium whitespace-nowrap">Call support</p>
+      <p className="text-base font-bold text-slate-900 whitespace-nowrap">+17474006208</p>
     </div>
   </div>
 </div>

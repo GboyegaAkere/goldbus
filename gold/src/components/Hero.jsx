@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="bg-white px-6 pt-25 pb-8">
+    <section className="bg-white px-6 pt-10 pb-8">
       {/* Top two-column text row */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-8 items-start">
         {/* Left */}
