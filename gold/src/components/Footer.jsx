@@ -25,9 +25,17 @@ export default function Footer() {
         <div>
           <h4 className="text-white text-sm font-bold mb-5">Quick Links</h4>
           <ul className="flex flex-col gap-3">
-            {["Home", "About Us", "Our Services", "Blog & Articles", "Contact Us"].map((l) => (
-              <li key={l}>
-                <a href="#" className="text-slate-400 text-xs hover:text-yellow-600 transition-colors">{l}</a>
+            {[
+              { label: "Home", href: "#home" },
+              { label: "About Us", href: "#about" },
+              { label: "Our Services", href: "#services" },
+              { label: "Our Products", href: "#products" },
+              { label: "Contact Us", href: "#contact" },
+            ].map((l) => (
+              <li key={l.label}>
+                <a href={l.href} className="text-slate-400 text-xs hover:text-yellow-600 transition-colors">
+                  {l.label}
+                </a>
               </li>
             ))}
           </ul>
@@ -37,9 +45,17 @@ export default function Footer() {
         <div>
           <h4 className="text-white text-sm font-bold mb-5">Our Services</h4>
           <ul className="flex flex-col gap-3">
-            {["Gold Trading", "Bullion & Coins", "Gold Investment Plans", "Portfolio Management", "Gold Certification"].map((l) => (
-              <li key={l}>
-                <a href="#" className="text-slate-400 text-xs hover:text-yellow-600 transition-colors">{l}</a>
+            {[
+              { label: "Gold Trading", href: "#services" },
+              { label: "Bullion & Coins", href: "#services" },
+              { label: "Gold Investment Plans", href: "#services" },
+              { label: "Portfolio Management", href: "#services" },
+              { label: "Gold Certification", href: "#services" },
+            ].map((l) => (
+              <li key={l.label}>
+                <a href={l.href} className="text-slate-400 text-xs hover:text-yellow-600 transition-colors">
+                  {l.label}
+                </a>
               </li>
             ))}
           </ul>
@@ -50,14 +66,16 @@ export default function Footer() {
           <h4 className="text-white text-sm font-bold mb-5">Contact Us</h4>
           <div className="flex flex-col gap-4">
             {[
-              { icon: <Phone size={14} />, text: "+8 624 713 7241" },
-              { icon: <Mail size={14} />, text: "hello@aureusElite.com" },
-              { icon: <MapPin size={14} />, text: "14/6 Gold Avenue, Lagos, Nigeria" },
+              { icon: <Phone size={14} />, text: "+8 624 713 7241", href: "tel:+86247137241" },
+              { icon: <Mail size={14} />, text: "hello@aureusElite.com", href: "mailto:hello@aureusElite.com" },
+              { icon: <MapPin size={14} />, text: "14/6 Gold Avenue, Lagos, Nigeria", href: "#contact" },
             ].map((item, i) => (
-              <div key={i} className="flex items-start gap-3">
+              <a key={i} href={item.href} className="flex items-start gap-3 group">
                 <span className="text-yellow-600 mt-0.5 shrink-0">{item.icon}</span>
-                <span className="text-slate-400 text-xs leading-relaxed">{item.text}</span>
-              </div>
+                <span className="text-slate-400 text-xs leading-relaxed group-hover:text-yellow-600 transition-colors">
+                  {item.text}
+                </span>
+              </a>
             ))}
           </div>
         </div>
