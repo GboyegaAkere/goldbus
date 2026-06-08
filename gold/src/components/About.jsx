@@ -27,7 +27,7 @@ export default function About() {
     Get a Quote <ArrowUpRight size={15} />
   </button>
 
-  <div className="flex items-center gap-3">
+  <div className="flex items-center">
     <div className="w-9 h-9 rounded-full border border-slate-400 flex items-center justify-center text-slate-500 shrink-0">
       <Phone size={15} />
     </div>
