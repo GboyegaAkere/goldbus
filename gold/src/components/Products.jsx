@@ -1,3 +1,5 @@
+import { ArrowUpRight } from "lucide-react";
+
 const products = [
   {
     image: "https://images.unsplash.com/photo-1624365169198-38255e1fe661?w=600&auto=format&fit=crop",
@@ -47,10 +49,10 @@ export default function Products() {
         <h2 className="text-4xl font-bold text-slate-900 mb-3">
           Crafted in Gold, Made to Last
         </h2>
-       <p className="text-sm text-slate-500 max-w-lg mx-auto">
-  Explore our exclusive collection of handcrafted gold jewellery — from elegant rings
-  to bold chains, every piece is made from certified, premium-grade gold.
-</p>
+        <p className="text-sm text-slate-500 max-w-lg mx-auto">
+          Explore our exclusive collection of handcrafted gold jewellery — from elegant rings
+          to bold chains, every piece is made from certified, premium-grade gold.
+        </p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -80,9 +82,14 @@ export default function Products() {
             </div>
 
             <div className="px-5 pb-5">
-              <button className="w-full flex items-center justify-center gap-2 bg-yellow-700 hover:bg-yellow-800 text-white text-sm font-semibold py-3 rounded-lg transition-colors">
+              
+               <a href={`https://wa.me/17474006208?text=Hello%2C%20I%20am%20interested%20in%20the%20${encodeURIComponent(p.title)}.%20Please%20provide%20more%20details.`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full flex items-center justify-center gap-2 bg-yellow-700 hover:bg-yellow-800 text-white text-sm font-semibold py-3 rounded-lg transition-colors"
+              >
                 Contact Us
-              </button>
+              </a>
             </div>
           </div>
         ))}
