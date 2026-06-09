@@ -34,7 +34,7 @@ export default function CEO() {
           </p>
 
           <p className="text-sm text-slate-500 leading-relaxed mb-4">
-            With over 20 years in the precious metals industry, Michael Sterling founded
+            With over 20 years in the precious metals industry, Eric Wayne founded
             Aureus Elite Gold Company with a singular mission to make premium gold
             investment accessible, transparent, and trustworthy for everyone.
           </p>
