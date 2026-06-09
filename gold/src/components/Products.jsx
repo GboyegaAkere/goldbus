@@ -83,7 +83,7 @@ export default function Products() {
 
             <div className="px-5 pb-5">
               
-               <a href={`https://wa.me/17474006208?text=Hello%2C%20I%20am%20interested%20in%20the%20${encodeURIComponent(p.title)}.%20Please%20provide%20more%20details.`}
+                <a href="https://wa.me/17474006208"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center gap-2 bg-yellow-700 hover:bg-yellow-800 text-white text-sm font-semibold py-3 rounded-lg transition-colors"
