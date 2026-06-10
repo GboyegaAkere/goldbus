@@ -66,9 +66,9 @@ export default function Footer() {
           <h4 className="text-white text-sm font-bold mb-5">Contact Us</h4>
           <div className="flex flex-col gap-4">
             {[
-              { icon: <Phone size={14} />, text: "+8 624 713 7241", href: "tel:+86247137241" },
-              { icon: <Mail size={14} />, text: "hello@aureusElite.com", href: "mailto:hello@aureusElite.com" },
-              { icon: <MapPin size={14} />, text: "14/6 Gold Avenue, Lagos, Nigeria", href: "#contact" },
+              { icon: <Phone size={14} />, text: "+17474006208", href: "tel:+17474006208" },
+              { icon: <Mail size={14} />, text: "aureuselitegold@gmail.com", href: "mailto:aureuselitegold@gmail.com" },
+              { icon: <MapPin size={14} />, text: "Calle 16 de Septiember 12 Col. Centro 0600 Ciudad de Mexico", href: "#contact" },
             ].map((item, i) => (
               <a key={i} href={item.href} className="flex items-start gap-3 group">
                 <span className="text-yellow-600 mt-0.5 shrink-0">{item.icon}</span>
@@ -84,7 +84,9 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-slate-800 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-        <p className="text-slate-500 text-xs">Copyright © 2024 Aureus Elite Gold. All rights reserved.</p>
+        <p className="text-slate-500 text-xs">
+  Copyright © {new Date().getFullYear()} Aureus Elite Gold. All rights reserved.
+</p>
         <div className="flex gap-5">
           {["Terms & Conditions", "Privacy Policy"].map((l) => (
             <a key={l} href="#" className="text-slate-500 text-xs hover:text-yellow-600 transition-colors">{l}</a>

@@ -7,7 +7,7 @@ export default function CEO() {
         <div className="relative">
           <div className="w-full h-120 rounded-2xl overflow-hidden">
             <img
-              src="/hero.jpg"
+              src="/ceo.jpg"
               alt="CEO of Aureus Elite Gold"
               className="w-full h-full object-cover object-top"
             />
