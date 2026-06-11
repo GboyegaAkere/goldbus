@@ -23,7 +23,7 @@ export default function About() {
           </p>
 
           <div className="flex flex-row items-center gap-6 mt-8">
- <a href="https://t.me/17188142775"
+ <a href="https://t.me/+17188142775"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex items-center gap-2 bg-yellow-700 hover:bg-yellow-800 text-white text-sm font-semibold px-5 py-3 rounded transition-colors whitespace-nowrap"
