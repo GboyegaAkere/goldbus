@@ -25,9 +25,9 @@ export default function Hero() {
             we are committed to delivering quality &amp; innovation in gold extraction and trading.
           </p>
           <div>
-            <button className="inline-flex items-center gap-2 bg-yellow-700 hover:bg-yellow-800 text-white text-sm font-semibold px-6 py-3 rounded transition-colors duration-200">
-              View Projects <ArrowUpRight size={16} />
-            </button>
+            <a href="#projects" className="inline-flex items-center gap-2 bg-yellow-700 hover:bg-yellow-800 text-white text-sm font-semibold px-6 py-3 rounded transition-colors duration-200">
+              Our Projects <ArrowUpRight size={16} />
+            </a>
           </div>
         </div>
       </div>

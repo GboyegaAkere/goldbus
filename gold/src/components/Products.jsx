@@ -11,8 +11,8 @@ const products = [
     featured: false,
   },
   {
-    image: "/2.jpg",
-    badge: "Gold Coin",
+    image: "/13.jpg",
+    badge: "Gold chains",
     badgeStyle: "bg-blue-100 text-blue-800",
     // title: "1oz Gold Bullion Coin",
     price: "$2,050",
@@ -21,7 +21,7 @@ const products = [
   },
   {
     image: "/3.jpg",
-    badge: "Gold Dust",
+    badge: "Gold chains",
     badgeStyle: "bg-green-100 text-green-800",
     // title: "500g Raw Gold Dust",
     price: "$29,800",
@@ -30,7 +30,7 @@ const products = [
   },
   {
     image: "/4.jpg",
-    badge: "Gold Ingot",
+    badge: "Gold chains",
     badgeStyle: "bg-pink-100 text-pink-800",
     title: "100g Gold Ingot",
     price: "$6,400",
@@ -40,7 +40,7 @@ const products = [
 
   {
     image: "/5.jpg",
-    badge: "Gold Ingot",
+    badge: "Gold chains",
     badgeStyle: "bg-pink-100 text-pink-800",
     price: "$6,400",
     unit: "/ per ingot",
@@ -49,7 +49,7 @@ const products = [
 
   {
     image: "/6.jpg",
-    badge: "Gold Dust",
+    badge: "Gold chains",
     badgeStyle: "bg-green-100 text-green-800",
     // title: "500g Raw Gold Dust",
     price: "$29,800",
@@ -59,7 +59,7 @@ const products = [
 
   {
     image: "/7.jpg",
-    badge: "Gold Dust",
+    badge: "Gold chain",
     badgeStyle: "bg-green-100 text-green-800",
     // title: "500g Raw Gold Dust",
     price: "$29,800",
@@ -68,7 +68,33 @@ const products = [
   },
   {
     image: "/8.jpg",
-    badge: "Gold Dust",
+    badge: "Gold chain",
+    badgeStyle: "bg-green-100 text-green-800",
+    // title: "500g Raw Gold Dust",
+    price: "$29,800",
+    unit: "/ per 500g",
+    featured: false,
+  },
+  {
+    image: "/14.jpg",
+    badge: "Gold chain",
+    badgeStyle: "bg-green-100 text-green-800",
+    // title: "500g Raw Gold Dust",
+    price: "$29,800",
+    unit: "/ per 500g",
+    featured: false,
+  },
+  {
+    image: "/15.jpg",
+    badge: "Gold chain",
+    badgeStyle: "bg-green-100 text-green-800",
+    // title: "500g Raw Gold Dust",
+    price: "$29,800",
+    unit: "/ per 500g",
+    featured: false,
+  },{
+    image: "/16.jpg",
+    badge: "Gold chain",
     badgeStyle: "bg-green-100 text-green-800",
     // title: "500g Raw Gold Dust",
     price: "$29,800",
