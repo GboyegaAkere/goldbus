@@ -20,6 +20,32 @@ const products = [
     featured: true,
   },
   {
+    image: "/14.jpg",
+    badge: "Gold chain",
+    badgeStyle: "bg-green-100 text-green-800",
+    // title: "500g Raw Gold Dust",
+    price: "$29,800",
+    unit: "/ per 500g",
+    featured: false,
+  },
+  {
+    image: "/15.jpg",
+    badge: "Gold chain",
+    badgeStyle: "bg-green-100 text-green-800",
+    // title: "500g Raw Gold Dust",
+    price: "$29,800",
+    unit: "/ per 500g",
+    featured: false,
+  },{
+    image: "/16.jpg",
+    badge: "Gold chain",
+    badgeStyle: "bg-green-100 text-green-800",
+    // title: "500g Raw Gold Dust",
+    price: "$29,800",
+    unit: "/ per 500g",
+    featured: false,
+  },
+  {
     image: "/3.jpg",
     badge: "Gold chains",
     badgeStyle: "bg-green-100 text-green-800",
@@ -75,32 +101,7 @@ const products = [
     unit: "/ per 500g",
     featured: false,
   },
-  {
-    image: "/14.jpg",
-    badge: "Gold chain",
-    badgeStyle: "bg-green-100 text-green-800",
-    // title: "500g Raw Gold Dust",
-    price: "$29,800",
-    unit: "/ per 500g",
-    featured: false,
-  },
-  {
-    image: "/15.jpg",
-    badge: "Gold chain",
-    badgeStyle: "bg-green-100 text-green-800",
-    // title: "500g Raw Gold Dust",
-    price: "$29,800",
-    unit: "/ per 500g",
-    featured: false,
-  },{
-    image: "/16.jpg",
-    badge: "Gold chain",
-    badgeStyle: "bg-green-100 text-green-800",
-    // title: "500g Raw Gold Dust",
-    price: "$29,800",
-    unit: "/ per 500g",
-    featured: false,
-  },
+  
 ];
 
 export default function Products() {
