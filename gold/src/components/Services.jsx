@@ -19,7 +19,7 @@ const services = [
   {
     icon: <ShieldCheck size={20} />,
     title: "Trusted & Certified",
-    text: "We operate with full regulatory compliance and ISO certification, ensuring every deal is secure and transparent.",
+    text: "We operate with regulatory compliance and ISO certification, ensuring every deal is secure and transparent.",
   },
 ];
 
